@@ -2,14 +2,14 @@
     ===== Código de TypeScript =====
 */
 
-class PersonaNOrmal {
+class PersonaNormal {
     constructor (
         public nombre: string,
         public direccion: string 
     ) {}
 }
 
-class Heroe extends PersonaNOrmal {
+class Heroe extends PersonaNormal {
 
     // public nombre: string;
     // public edad: number;
